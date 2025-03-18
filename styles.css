@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+}
+.container{
+    background-color: #3b3b3b;
+    width: 370px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #0d5567 ;
+    height: 95%;
+    width: 95%;
+}
+.calculator form .buttons input{
+    height: 43px;
+    border:0;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    background-color: #6e0d0d8e;;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+}
+.display input{
+    text-align: right;
+    font-size: 1.9rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    background: #6e050559;
+    width: 95%;
+    height: 50px;
+    margin: 8px;
+}
+form #equal{
+   width: 145px;
+   color:bisque
+}
+form #clear{
+    color: rgba(26, 255, 0, 0.441);
+}
+form #delete{
+    color: #ff000080 ;
+}
+form #clear:hover{
+    background:rgba(26, 255, 0, 0.441);
+    color:#fff;
+}
+form #equal:hover{
+    background:rgba(26, 255, 0, 0.441);
+    color:#fff;
+}
+form #delete:hover{
+    background: #ff000080;
+    color: #fff ;
+}
